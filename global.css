@@ -7,14 +7,17 @@
     flex-direction:row;
     justify-content: space-between;
     background-color: wheat;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 .titol {
 justify-content:center;
 background-color:aqua;
+opacity:0.5;
 text-decoration-color: white;
 position: relative;
 margin-top:70px;
+font-family:Arial, Helvetica, sans-serif
 }
 
 body {
@@ -23,7 +26,8 @@ body {
 
 footer {
     background-color:royalblue;
-    
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
