@@ -1,5 +1,5 @@
 .menu {
-    max-width: 100px;
+    max-width: 600px;
     margin: auto;
     margin-top:70px;
     position: fixed;
@@ -9,6 +9,14 @@
     background-color: wheat;
     font-family:Arial, Helvetica, sans-serif
 }
+.row {
+    display:flex;
+    flex-direction:row;
+    width:200px;
+    margin-top:70px;
+    justify-content:space-between
+}
+
 
 .titol {
 justify-content:center;
