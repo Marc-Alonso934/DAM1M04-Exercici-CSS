@@ -99,8 +99,33 @@ h3 {
     align-items:center;
 }
 #esmoquin > img{
-    max-width:50px;
+    max-width:500px;
 }
+#blanc{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#blanc>img{
+    max-width:1 1 260px;
+}
+#texans{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#texans>img{
+    max-width:1 1 260px;
+}
+#jaquet{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#jaquet>img{
+    max-width:1 1 260px;
+}
+
 img {
     justify-content:center;
     display:flex;
@@ -120,7 +145,12 @@ h4{
     font-family: Arial, Helvetica, sans-serif;
     text-align:center;
 }
-
+.filtres {
+    margin-top: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    list-style-type: circle;
+}
 .banda{
     background-color:bisque;
     border: dotted 8px greenyellow;
@@ -133,9 +163,13 @@ h4{
     gap:5px
 }
 .contenidor{
-    max-width:100px;
+    max-width:auto;
     margin:auto;
-    display:flex;
+    display:grid;
+    flex-direction:column;
+    flex-wrap:wrap;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     margin-top:100px;
 }
