@@ -1,7 +1,7 @@
 .menu {
     max-width: 1500px;
     margin: auto;
-    margin-top:50px;
+    top:0px;
     position: fixed;
     display:flex;
     flex-direction:row;
@@ -76,6 +76,30 @@ h3 {
 }
 #jaqueta > img {
     max-width: 50%;
+}
+#corbates{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#corbates > img {
+    max-width:50%;
+}
+#logo{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#logo > img{
+    max-width:50%;
+}
+#esmoquin{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#esmoquin > img{
+    max-width:50px;
 }
 img {
     justify-content:center;
