@@ -24,6 +24,7 @@
 margin-top:300px;
 }
 
+
 .titol {
 justify-content:center;
 background-color:aqua;
@@ -144,6 +145,12 @@ p{
 h4{
     font-family: Arial, Helvetica, sans-serif;
     text-align:center;
+}
+.conic{
+    background:linear-gradient(from 135deg, #4e536a 33%, #667eea 41%, #764ba2 60%);
+    background-size:cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .filtres {
     margin-top: 80px;
