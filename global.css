@@ -70,6 +70,9 @@ h3 {
     padding:15px;
 
 }
+.rotar{
+    transform:rotate3d(1,1,1,-8deg);
+}
 #jaqueta {
     display: flex;
     flex-direction: column;
