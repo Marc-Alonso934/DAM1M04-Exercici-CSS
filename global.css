@@ -43,7 +43,6 @@ h1 {
     border:dotted olivedrab;
     width:1500px;
     height:70px;
-
 }
 
 h2{
@@ -80,6 +79,7 @@ h3 {
 }
 #jaqueta > img {
     max-width: 50%;
+    opacity: 7%
 }
 #corbates{
     display:flex;
@@ -88,6 +88,7 @@ h3 {
 }
 #corbates > img {
     max-width:50%;
+    opacity: 7%;
 }
 #logo{
     display:flex;
@@ -101,9 +102,12 @@ h3 {
     display:flex;
     flex-direction:column;
     align-items:center;
+    min-height:90px;
+    min-width:90px;
 }
 #esmoquin > img{
     max-width:500px;
+    opacity: 7%;
 }
 #blanc{
     display:flex;
@@ -165,10 +169,10 @@ h4{
     flex-direction: column;
     justify-content:center;
 }
-.mida{
+.mapes{
     height:100px;
     width:100px;
-
+    filter:blur(0.5px);
 }
 .dreta{
     display: flex;
@@ -233,3 +237,6 @@ box-shadow:0px -5px 20px 3px #555655;
 .sota{
     text-shadow:-12px -6px 10px #635f5f;
 }
+
+
+
