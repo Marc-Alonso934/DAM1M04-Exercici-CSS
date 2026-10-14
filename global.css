@@ -210,9 +210,9 @@ h4{
     grid-template-columns: 1fr 1fr 1fr;
     gap:5px
 }
-@media(max-width:800px){
+@media(min-width:30px){
     .banda{
-        gap:30px;
+        gap:10px; 
     }
 }
 .contenidor{
