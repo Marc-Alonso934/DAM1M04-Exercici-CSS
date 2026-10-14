@@ -213,8 +213,7 @@ h4{
 @media(min-width:510px){
     .banda{
         gap:30px;
-        justify-content:center;
-        border-left-width: top;
+        align-items:center;
     }
 }
 .contenidor{
