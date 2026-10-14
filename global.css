@@ -213,9 +213,9 @@ h4{
 @media(min-width:510px){
     .banda{
         gap:30px;
-        display:flex;
+        display:grid;
         flex-direction:column;
-        justify-content:center;
+        flex-wrap:wrap;
     }
 }
 .contenidor{
