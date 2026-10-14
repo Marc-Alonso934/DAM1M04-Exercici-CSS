@@ -48,9 +48,9 @@ h1 {
     width:1500px;
     height:70px;
 }
-@media(min-width:240px;){
+@media(min-width:240px){
     h1{
-        font-size:30px;
+        font-size:50px;
     }
 }
 h2{
@@ -63,9 +63,9 @@ h2{
   border: dashed olivedrab;
   margin-top:60px;
 }
-@media(min-width:240px;){
+@media(min-width:240px){
     h2{
-        font-size:30px;
+        font-size:50px;
     }
 }
 h3 {
@@ -82,9 +82,9 @@ h3 {
     padding:15px;
 
 }
-@media(min-width:240px;){
+@media(min-width:240px){
     h3{
-        font-size:30px;
+        font-size:50px;
     }
 }
 .rotar{
