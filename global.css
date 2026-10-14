@@ -51,6 +51,7 @@ h1 {
 @media(min-width:670px){
     h1{
         font-size:50px;
+        box-sizing:content-box;
     }
 }
 h2{
@@ -66,6 +67,7 @@ h2{
 @media(min-width:670px){
     h2{
         font-size:50px;
+        box-sizing:content-box;
     }
 }
 h3 {
@@ -85,6 +87,7 @@ h3 {
 @media(min-width:670px){
     h3{
         font-size:50px;
+        box-sizing:content-box;
     }
 }
 .rotar{
