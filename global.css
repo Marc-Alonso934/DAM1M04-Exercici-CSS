@@ -8,7 +8,11 @@
     justify-content: space-between;
     background-color: wheat;
     font-family:Arial, Helvetica, sans-serif;
-
+    @media(min-width:350px){
+        display:flex;
+        flex-direction:row;
+        align-items: space-around;
+    }
 }
 .row {
     display:flex;
@@ -79,7 +83,7 @@ h3 {
 }
 #jaqueta > img {
     max-width: 50%;
-    opacity: 7%
+    opacity: 70%
 }
 #corbates{
     display:flex;
@@ -88,7 +92,7 @@ h3 {
 }
 #corbates > img {
     max-width:50%;
-    opacity: 7%;
+    opacity: 70%;
 }
 #logo{
     display:flex;
@@ -107,7 +111,7 @@ h3 {
 }
 #esmoquin > img{
     max-width:500px;
-    opacity: 7%;
+    opacity: 70%;
 }
 #blanc{
     display:flex;
