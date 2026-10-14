@@ -48,14 +48,7 @@ h1 {
     width:1500px;
     height:70px;
 }
-@media(min-width:670px){
-    h1{
-        font-size:50px;
-        box-sizing:content-box;
-        width:300px;
-        height:300px;
-    }
-}
+
 h2{
   background-color: orangered;
   margin: auto;
