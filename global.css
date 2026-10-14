@@ -214,6 +214,7 @@ h4{
     .banda{
         gap:30px;
         justify-content:center;
+        border-left-width: top;
     }
 }
 .contenidor{
