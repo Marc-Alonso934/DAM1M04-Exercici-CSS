@@ -243,6 +243,7 @@ footer {
 @media(min-width:256px){
     footer{
         font-size:30px;
+        width:1000px;
 
     }
 }
