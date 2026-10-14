@@ -199,7 +199,7 @@ h4{
     grid-template-columns: 1fr 1fr 1fr;
     gap:5px
 }
-.banda{
+    .banda{
     background-color:bisque;
     border: dotted 8px greenyellow;
     border-radius:15px;
@@ -210,9 +210,9 @@ h4{
     grid-template-columns: 1fr 1fr 1fr;
     gap:5px
 }
-@media(min-width:30px){
+@media(min-width:450px){
     .banda{
-        gap:10px; 
+        gap:50px;
     }
 }
 .contenidor{
