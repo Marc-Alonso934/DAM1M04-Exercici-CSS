@@ -209,6 +209,9 @@ h4{
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     gap:5px
+    @media(min-width:600px){
+        gap:3px
+    }
 }
 .contenidor{
     max-width:auto;
