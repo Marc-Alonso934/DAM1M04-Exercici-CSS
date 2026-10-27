@@ -53,7 +53,7 @@ h2{
   background-color: orangered;
   margin: auto;
   display:flex;
-  justify-content:right;
+  justify-content:center;
   font-family: Arial, Helvetica, sans-serif;
   text-align:center;
   border: dashed olivedrab;
