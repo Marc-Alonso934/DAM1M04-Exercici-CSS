@@ -59,14 +59,7 @@ h2{
   border: dashed olivedrab;
   margin-top:60px;
 }
-@media(min-width:670px){
-    h2{
-        font-size:50px;
-        box-sizing:content-box;
-        width:300px;
-        height:300px;
-    }
-}
+
 h3 {
     font-family:Arial, Helvetica, sans-serif;
     background-color:aliceblue;
@@ -81,14 +74,7 @@ h3 {
     padding:15px;
 
 }
-@media(min-width:670px){
-    h3{
-        font-size:50px;
-        box-sizing:content-box;
-        width:300px;
-        height:300px;
-    }
-}
+
 .rotar{
     transform:rotate3d(1,1,1,-8deg);
 }
@@ -177,6 +163,7 @@ h4{
 .conic{
     background:linear-gradient(from 135deg, #4e536a 33%, #667eea 41%, #764ba2 60%);
     background-size:cover;
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
